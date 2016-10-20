@@ -17,7 +17,7 @@ namespace Importer
         {
             var file = GetZipFile();
             var extractedfiles = UnzipFile(file);
-            var peopleList = Transform(extractedfiles)
+            var peopleList = Transform(extractedfiles);
         }
     }
 
